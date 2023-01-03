@@ -4,7 +4,7 @@ import Globalstyle from './styles/globalstyle'
 function App() {
   return (
     <>
-      <Globalstyle />
+      {/* <Globalstyle /> */}
       <PageRoutes />
     </>
   )
