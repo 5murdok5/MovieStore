@@ -1,16 +1,19 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-*{
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: #0c0b11;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  *{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #0c0b11;
+  }
+  #root{
+    margin:0 auto;
+  }
 `
 
 export const TitlesItems = styled.h1`
