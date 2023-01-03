@@ -8,7 +8,7 @@ export const getAllMovies = async (
 ): Promise<MoviesResponseApi> => {
   return await axios
     .get<MoviesResponseApi>(
-      `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}&s=${searchTerm}&page=${page}&r=json`,
+      `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}&s=${searchTerm}&page=${page}&r=json`,
     )
     .then((res) => {
       let resp = {
