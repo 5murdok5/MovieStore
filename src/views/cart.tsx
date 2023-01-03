@@ -1,5 +1,4 @@
 import { useContext } from 'react'
-import { NavLink } from 'react-router-dom'
 import CardMovie from '../components/cardMovie'
 import { MovieContext } from '../context/MovieContext'
 import { CartSection } from '../styles/Cart.style'
