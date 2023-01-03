@@ -3,7 +3,7 @@ import { FooterCustomSt } from '../styles/FooterCustom.style';
 const FooterCustom = () => {
   return (
     <FooterCustomSt>
-      hi
+      Movies Store
   </FooterCustomSt>
   )
 }

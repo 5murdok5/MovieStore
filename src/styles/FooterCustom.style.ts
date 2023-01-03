@@ -4,6 +4,8 @@ export const FooterCustomSt = styled.footer`
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: auto;
+  padding: 40px;
+  color: white;
  
 `
 

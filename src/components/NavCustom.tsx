@@ -6,7 +6,7 @@ const NavCustom = () => {
       <NavCustomSt>
         <ul>
           <NavLinksCustom to={'/home'}>
-            <span className="pc-mtext">Home</span>
+            <span className="pc-mtext">Catálogo</span>
           </NavLinksCustom>
           <NavLinksCustom to={'/cart'}>
             <span className="pc-mtext">Cart</span>

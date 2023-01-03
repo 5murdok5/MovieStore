@@ -28,4 +28,9 @@ export const CartSection = {
     color: white;
     padding: 0px 0px 25px 0;
   `,
+  InfoNoItems: styled.h3`
+    text-align: center;
+    font-weight: 200;
+    color: #ccc;
+  `,
 }

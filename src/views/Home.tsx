@@ -12,7 +12,7 @@ const Home = () => {
       <ButtonError>
         <ButtonCancel onClick={testLoad}>Simular Carga Erronea</ButtonCancel>
       </ButtonError>
-      <TitlesItems>Catalogo</TitlesItems>
+      <TitlesItems>Catálogo</TitlesItems>
       {loadMovies ? (
         <Load />
       ) : movies ? (

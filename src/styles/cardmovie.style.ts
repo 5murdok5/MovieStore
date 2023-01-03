@@ -68,9 +68,10 @@ export const CardMv = {
     .price {
       color: #fff;
       font-family: 'Roboto', sans-serif;
-      font-weight: 400;
-      font-size: 18px;
+      font-weight: 800;
+      font-size: 25px;
       padding: 8px 0px;
+      float: right;
     }
   `,
 }

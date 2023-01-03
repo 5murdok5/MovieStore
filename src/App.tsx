@@ -1,10 +1,8 @@
 import PageRoutes from './routes/routes'
-import Globalstyle from './styles/globalstyle'
-
+import './App.css'
 function App() {
   return (
     <>
-      <Globalstyle />
       <PageRoutes />
     </>
   )

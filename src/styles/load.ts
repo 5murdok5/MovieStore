@@ -13,7 +13,7 @@ const rotate = keyframes`
 
 export const Load = styled.div`
  border: 6px solid #f3f3f300; 
-  border-top: 6px solid #3498db; 
+  border-top: 6px solid #ff3d3d; 
   border-radius: 50%;
   width: 30px;
   height: 30px;
