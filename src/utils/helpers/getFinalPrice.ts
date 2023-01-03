@@ -1,4 +1,4 @@
-import { Movie, MoviesServ } from '../../interfaces/movies';
+import { MoviesServ } from '../../interfaces/movies';
 
 export function calculatePrice(listMovies:Array<MoviesServ>) {
     let price = 0
